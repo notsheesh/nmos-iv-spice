@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "IV_Characteristics"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/afs/andrew.cmu.edu/usr3/shreesht/simulation/IV_Characteristics/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "NMOS/IV_Characteristics/schematic" "IV_Characteristics" )
+ )
+( "IV_Characteristics" "ihnl/cds0/map" )
+ )

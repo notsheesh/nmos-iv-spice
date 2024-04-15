@@ -1,0 +1,9 @@
+
+// Library name: NMOS
+// Cell name: IV_Characteristics
+// View name: schematic
+NM0 (net6 net3 0 0) gpdk045_nmos1v w=(120n) l=45n nf=1 as=16.8f ad=16.8f \
+        ps=520n pd=520n nrd=1.16667 nrs=1.16667 sa=140n sb=140n sd=160n \
+        m=(1)
+Vgs (net3 0) vsource dc=VGS type=dc
+Vds (net6 0) vsource dc=1.8 type=dc

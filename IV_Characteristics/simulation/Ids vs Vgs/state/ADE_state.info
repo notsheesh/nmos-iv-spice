@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("NMOS" "IV_Characteristics" "schematic" "spectre")
+descriptionText = "None"

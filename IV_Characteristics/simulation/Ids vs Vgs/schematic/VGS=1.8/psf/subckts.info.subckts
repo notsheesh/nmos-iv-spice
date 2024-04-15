@@ -1,0 +1,280 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "14.1.0.527.isr6"
+"date" "8:58:11 PM, Sun Apr 14, 2024"
+"design" "// Generated for: spectre"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 0.00100000
+TYPE
+"subckt" STRUCT(
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"gpdk045_pmoscap2v" "subckt" (
+""
+""
+)
+"gpdk045_resnsppoly" "subckt" (
+""
+""
+)
+"resm11_m" "subckt" (
+""
+""
+)
+"gpdk045_pmos1v" "subckt" (
+""
+""
+)
+"resm9_m" "subckt" (
+""
+""
+)
+"gpdk045_mosvar1v" "subckt" (
+""
+""
+)
+"resm1_m" "subckt" (
+""
+""
+)
+"gpdk045_pmos1v_hvt" "subckt" (
+""
+""
+)
+"gpdk045_nmos1v_hvt" "subckt" (
+""
+""
+)
+"gpdk045_resnspdiff" "subckt" (
+""
+""
+)
+"gpdk045_resm11" "subckt" (
+""
+""
+)
+"gpdk045_resm2" "subckt" (
+""
+""
+)
+"gpdk045_resspdiff" "subckt" (
+""
+""
+)
+"gpdk045_resnsndiff" "subckt" (
+""
+""
+)
+"ind_s" "subckt" (
+""
+""
+)
+"gpdk045_ressppoly" "subckt" (
+""
+""
+)
+"gpdk045_resm7" "subckt" (
+""
+""
+)
+"resnwoxide" "subckt" (
+""
+""
+)
+"gpdk045_nmos1v" "subckt" (
+"geo_fac misa2 sb scc fac1 fac2 lef toxmis_n xw ad misa1 dmcg factor nrs as nf pd sa sca w dlmis_n multi scb ps sd vthmis_n wef dwmis_n l nrd"
+"d g s b"
+)
+"gpdk045_nmos1v.ressnpoly_rg" "subckt" (
+"ptc1 mf ptc2 pvc1 pt tfac rsh ww pvc2 ll dw dxw_ressnpoly"
+"n1 n2"
+)
+"gpdk045_nmos1v.ressppoly_rg" "subckt" (
+""
+""
+)
+"gpdk045_resm4" "subckt" (
+""
+""
+)
+"resm3_m" "subckt" (
+""
+""
+)
+"resnsndiff" "subckt" (
+""
+""
+)
+"resnsppoly" "subckt" (
+""
+""
+)
+"gpdk045_pmos2v" "subckt" (
+""
+""
+)
+"gpdk045_resm1" "subckt" (
+""
+""
+)
+"gpdk045_resm3" "subckt" (
+""
+""
+)
+"npn_scalable" "subckt" (
+""
+""
+)
+"gpdk045_resm10" "subckt" (
+""
+""
+)
+"resm8_m" "subckt" (
+""
+""
+)
+"gpdk045_nmos2v" "subckt" (
+""
+""
+)
+"ressppoly" "subckt" (
+""
+""
+)
+"pnp_scalable" "subckt" (
+""
+""
+)
+"gpdk045_resm9" "subckt" (
+""
+""
+)
+"gpdk045_resnsnpoly" "subckt" (
+""
+""
+)
+"resm10_m" "subckt" (
+""
+""
+)
+"gpdk045_resnwoxide" "subckt" (
+""
+""
+)
+"resm5_m" "subckt" (
+""
+""
+)
+"resm6_m" "subckt" (
+""
+""
+)
+"ressndiff" "subckt" (
+""
+""
+)
+"gpdk045_nmoscap1v" "subckt" (
+""
+""
+)
+"resm2_m" "subckt" (
+""
+""
+)
+"resm7_m" "subckt" (
+""
+""
+)
+"gpdk045_resnwsti" "subckt" (
+""
+""
+)
+"resnspdiff" "subckt" (
+""
+""
+)
+"gpdk045_mosvar2v" "subckt" (
+""
+""
+)
+"gpdk045_resm8" "subckt" (
+""
+""
+)
+"ind_a" "subckt" (
+""
+""
+)
+"gpdk045_nmos1v_nat" "subckt" (
+""
+""
+)
+"resspdiff" "subckt" (
+""
+""
+)
+"gpdk045_pmoscap1v" "subckt" (
+""
+""
+)
+"resnwsti" "subckt" (
+""
+""
+)
+"gpdk045_mimcap" "subckt" (
+""
+""
+)
+"gpdk045_resm5" "subckt" (
+""
+""
+)
+"gpdk045_resm6" "subckt" (
+""
+""
+)
+"gpdk045_nmoscap2v" "subckt" (
+""
+""
+)
+"gpdk045_pmos1v_lvt" "subckt" (
+""
+""
+)
+"resnsnpoly" "subckt" (
+""
+""
+)
+"gpdk045_nmos1v_lvt" "subckt" (
+""
+""
+)
+"gpdk045_ressnpoly" "subckt" (
+""
+""
+)
+"gpdk045_ressndiff" "subckt" (
+""
+""
+)
+"ressnpoly" "subckt" (
+""
+""
+)
+"gpdk045_nmos2v_nat" "subckt" (
+""
+""
+)
+"resm4_m" "subckt" (
+""
+""
+)
+END

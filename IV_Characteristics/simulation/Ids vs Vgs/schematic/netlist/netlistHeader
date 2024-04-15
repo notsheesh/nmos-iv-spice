@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Apr 14 20:57:26 2024
+// Design library name: NMOS
+// Design cell name: IV_Characteristics
+// Design view name: schematic
+simulator lang=spectre
+global 0

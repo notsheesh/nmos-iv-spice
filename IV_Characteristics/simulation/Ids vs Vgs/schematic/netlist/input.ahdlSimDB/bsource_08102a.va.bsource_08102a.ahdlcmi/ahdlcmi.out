@@ -1,0 +1,63 @@
+ahdlcmicompile: Compiling ahdlcmi in input.ahdlSimDB//bsource_08102a.va.bsource_08102a.ahdlcmi/Linux-64/ for Linux-64 with optimize using gcc on Sun Apr 14 20:37:44 EDT 2024 [5.0]
+ahdlcmicompile: Generating makefile
+PATH:  /usr/cds/mmsim-14.10.527/tools.lnx86/cdsgcc/gcc/4.1-x86_64/install/bin:/usr/cds/mmsim-14.10.527/bin:/usr/cds/mmsim-14.10.527/tools.lnx86/bin/64bit:/usr/cds/mmsim-14.10.527/tools.lnx86/bin:/usr/cds/ic-6.18.030/bin:/usr/cds/ic-6.18.030/tools/bin/64bit:/usr/cds/ic-6.18.030/tools/bin:/usr/cds/ic-6.18.030/oa_v22.60.018/bin:/afs/ece/support/agilent/agilent.release/i386_suse93/ads2012_08//idf/ads_site:/afs/ece/support/agilent/agilent.release/i386_suse93/ads2012_08//idf/ads_site/hnl:/afs/ece/support/agilent/agilent.release/i386_suse93/ads2012_08//idf/ads_site/si/caplib:/afs/ece/support/agilent/agilent.release/i386_suse93/ads2012_08/bin:/afs/ece.cmu.edu/support/cds/share/image/usr/cds/ext-19.13.000/tools/bin:/usr/cds/assura-41-618//tools/assura/bin:/afs/ece/support/agilent/agilent.release/i386_suse93/GoldenGate-201210-4-7-0/bin:/usr/cds/ic-6.18.030/tools/dfII/bin:/usr/cds/mmsim-14.10.527/tools.lnx86/dfII/bin:/usr/local/bin:/usr/bin:.:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/lib/fastx/3/apps:/opt/puppetlabs/bin:/opt/dell/srvadmin/bin:/usr/cds/ius-8.20/tools/bin:/usr/cds/ius-8.20tools/dfII/bin:/usr/cds/assura-41-618//tools/assura/bin:/usr/cds/assura-41-618//tools/assura/bin:/afs/ece.cmu.edu/support/mgc/mgc.release/cal_2011.3.18.12/ixl_cal_2011.3_18.12/bin
+LD_LIBRARY_PATH:  /usr/cds/mmsim-14.10.527/tools.lnx86/cdsgcc/gcc/4.1-x86_64/install/lib:/usr/cds/mmsim-14.10.527/tools.lnx86/giganta/lib/64bit:/usr/cds/mmsim-14.10.527/tools.lnx86/mdl/lib/64bit:/usr/cds/mmsim-14.10.527/tools.lnx86/mmsim/lib/64bit:/usr/cds/mmsim-14.10.527/tools.lnx86/inca/lib/64bit:/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/lib/64bit:/usr/cds/mmsim-14.10.527/tools.lnx86/dfII/lib/64bit:/usr/cds/mmsim-14.10.527/tools.lnx86/lib/64bit:/usr/cds/mmsim-14.10.527/tools.lnx86/lib:/usr/cds/ic-6.18.030/tools/lib/64bit:/usr/cds/ic-6.18.030/tools/lib:/usr/cds/ic-6.18.030/tools/lib/64bit/RHEL/RHEL7:/usr/cds/ic-6.18.030/oa_v22.60.018/lib/linux_rhel60_64/opt:/usr/cds/ic-6.18.030/tools/dfII/lib/64bit:/usr/cds/ic-6.18.030/tools/sev/lib/64bit:/usr/cds/ic-6.18.030/tools/hdf5/lib/64bit:/usr/cds/ic-6.18.030/tools/lz4/lib/64bit:/usr/cds/ius-8.20/tools.lnx86/lib/64bit:/usr/cds/ic-6.18.030/tools/Qt/v5/64bit/lib:/usr/cds/ius-8.20/tools/lib
+ERROR: ld.so: object '/afs/ece.cmu.edu/support/cds/share/image/usr/cds/ic-6.18.030/tools.lnx86/dfII/../lib/64bit/libstdc++.so' from LD_PRELOAD cannot be preloaded: ignored.
+ERROR: ld.so: object '/afs/ece.cmu.edu/support/cds/share/image/usr/cds/ic-6.18.030/tools.lnx86/dfII/../lib/64bit/libstdc++.so' from LD_PRELOAD cannot be preloaded: ignored.
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/bin/gnumake -l 40.000000 -j40 -f GNUmakefile
+ERROR: ld.so: object '/afs/ece.cmu.edu/support/cds/share/image/usr/cds/ic-6.18.030/tools.lnx86/dfII/../lib/64bit/libstdc++.so' from LD_PRELOAD cannot be preloaded: ignored.
+Cleaning ./obj/optimize/5.0
+rm -f -rf ./obj/optimize/5.0
+ERROR: ld.so: object '/afs/ece.cmu.edu/support/cds/share/image/usr/cds/ic-6.18.030/tools.lnx86/dfII/../lib/64bit/libstdc++.so' from LD_PRELOAD cannot be preloaded: ignored.
+Compiling C file bsource_08102a_func.c (optimize) with -O0
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /usr/cds/mmsim-14.10.527/tools.lnx86/cdsgcc/gcc/4.4/bin/gcc  -march=k8 -ffast-math -O0 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include -c bsource_08102a_func.c -o obj/optimize/5.0/bsource_08102a_func.o || rm -f -f obj/optimize/5.0/bsource_08102a_func.o
+Compiling C file bsource_08102a_DcFuncDerLoad.c (optimize)
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /usr/cds/mmsim-14.10.527/tools.lnx86/cdsgcc/gcc/4.4/bin/gcc  -march=k8 -ffast-math -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include -c bsource_08102a_DcFuncDerLoad.c -o obj/optimize/5.0/bsource_08102a_DcFuncDerLoad.o || rm -f -f obj/optimize/5.0/bsource_08102a_DcFuncDerLoad.o
+Compiling C file bsource_08102a_DcFuncLoad.c (optimize)
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /usr/cds/mmsim-14.10.527/tools.lnx86/cdsgcc/gcc/4.4/bin/gcc  -march=k8 -ffast-math -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include -c bsource_08102a_DcFuncLoad.c -o obj/optimize/5.0/bsource_08102a_DcFuncLoad.o || rm -f -f obj/optimize/5.0/bsource_08102a_DcFuncLoad.o
+Compiling C file bsource_08102a_TranFuncDerLoad.c (optimize)
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /usr/cds/mmsim-14.10.527/tools.lnx86/cdsgcc/gcc/4.4/bin/gcc  -march=k8 -ffast-math -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include -c bsource_08102a_TranFuncDerLoad.c -o obj/optimize/5.0/bsource_08102a_TranFuncDerLoad.o || rm -f -f obj/optimize/5.0/bsource_08102a_TranFuncDerLoad.o
+Compiling C file bsource_08102a_TranFuncLoad.c (optimize)
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /usr/cds/mmsim-14.10.527/tools.lnx86/cdsgcc/gcc/4.4/bin/gcc  -march=k8 -ffast-math -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include -c bsource_08102a_TranFuncLoad.c -o obj/optimize/5.0/bsource_08102a_TranFuncLoad.o || rm -f -f obj/optimize/5.0/bsource_08102a_TranFuncLoad.o
+Compiling C file bsource_08102a_HbFuncLoad.c (optimize)
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /usr/cds/mmsim-14.10.527/tools.lnx86/cdsgcc/gcc/4.4/bin/gcc  -march=k8 -ffast-math -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include -c bsource_08102a_HbFuncLoad.c -o obj/optimize/5.0/bsource_08102a_HbFuncLoad.o || rm -f -f obj/optimize/5.0/bsource_08102a_HbFuncLoad.o
+Compiling C file bsource_08102a_OpPointCalc.c (optimize)
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /usr/cds/mmsim-14.10.527/tools.lnx86/cdsgcc/gcc/4.4/bin/gcc  -march=k8 -ffast-math -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include -c bsource_08102a_OpPointCalc.c -o obj/optimize/5.0/bsource_08102a_OpPointCalc.o || rm -f -f obj/optimize/5.0/bsource_08102a_OpPointCalc.o
+Compiling C file bsource_08102a_cmi_c.c (optimize) with -O0
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /usr/cds/mmsim-14.10.527/tools.lnx86/cdsgcc/gcc/4.4/bin/gcc  -march=k8 -ffast-math -O0 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include -I/usr/cds/mmsim-14.10.527/tools.lnx86/cmi/include -c bsource_08102a_cmi_c.c -o obj/optimize/5.0/bsource_08102a_cmi_c.o || rm -f -f obj/optimize/5.0/bsource_08102a_cmi_c.o
+rm -f -rf bsource_08102a_DcFuncDerLoad.c
+<stdin>: In function 'bsource_08102a_pDC_Load':
+<stdin>:739: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1939: note: expected 'void *' but argument is of type 'long int'
+<stdin>: In function 'bsource_08102a_pCompare':
+<stdin>:778: warning: assignment makes integer from pointer without a cast
+<stdin>:778: warning: passing argument 1 of 'memcpy' makes pointer from integer without a cast
+/usr/include/string.h:42: note: expected 'void * __restrict__' but argument is of type 'long int'
+<stdin>:778: warning: passing argument 2 of 'memcpy' makes pointer from integer without a cast
+/usr/include/string.h:42: note: expected 'const void * __restrict__' but argument is of type 'long int'
+<stdin>:778: warning: assignment makes integer from pointer without a cast
+<stdin>: In function 'bsource_08102a_pGetMatrixPointers':
+<stdin>:784: warning: assignment makes integer from pointer without a cast
+rm -f -rf bsource_08102a_HbFuncLoad.c
+<stdin>: In function 'bsource_08102a_pAnalTranLoad':
+<stdin>:831: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1939: note: expected 'void *' but argument is of type 'long int'
+<stdin>: In function 'bsource_08102a_pNoiseBindSrcs':
+<stdin>:857: warning: passing argument 3 of 'aslDevNoiseBindStartModel' discards qualifiers from pointer target type
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1045: note: expected 'char *' but argument is of type 'devModelID'
+<stdin>: In function 'bsource_08102a_pNoiseNameSrcs':
+<stdin>:860: warning: passing argument 3 of 'aslDevNoiseNameModel' discards qualifiers from pointer target type
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1053: note: expected 'char *' but argument is of type 'devModelID'
+<stdin>: In function 'bsource_08102a_pSaveRestart':
+<stdin>:866: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1162: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+<stdin>: In function 'bsource_08102a_pSaveRestartInst':
+<stdin>:869: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type
+/usr/cds/mmsim-14.10.527/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1162: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+rm -f -rf bsource_08102a_DcFuncLoad.c
+rm -f -rf bsource_08102a_TranFuncLoad.c
+rm -f -rf bsource_08102a_OpPointCalc.c
+rm -f -rf bsource_08102a_TranFuncDerLoad.c
+rm -f -rf bsource_08102a_func.c
+rm -f -rf bsource_08102a_cmi_c.c
+/usr/cds/mmsim-14.10.527/tools.lnx86/cdsgcc/gcc/4.4/bin/gcc -shared -O3 -m64 -fPIC -o obj/optimize/5.0/libahdlcmi_bsource_08102a.so ./obj/optimize/5.0/bsource_08102a_func.o ./obj/optimize/5.0/bsource_08102a_DcFuncDerLoad.o ./obj/optimize/5.0/bsource_08102a_DcFuncLoad.o ./obj/optimize/5.0/bsource_08102a_TranFuncDerLoad.o ./obj/optimize/5.0/bsource_08102a_TranFuncLoad.o ./obj/optimize/5.0/bsource_08102a_HbFuncLoad.o ./obj/optimize/5.0/bsource_08102a_OpPointCalc.o ./obj/optimize/5.0/bsource_08102a_cmi_c.o  -Wl,-rpath,/usr/lib -Wl,-rpath,/lib -s 
