@@ -1,6 +1,6 @@
 # NMOS SPICE
 ## Setup 
-```
+```sh
 # Clone this repo in your workspace
 git clone https://github.com/notsheesh/nmos-spice.git
 
